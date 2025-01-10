@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './ScrollBar';
+@import './SetupFooter';
+@import './AccountScrollbar';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  

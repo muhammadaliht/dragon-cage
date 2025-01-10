@@ -1,0 +1,27 @@
+.scrollbar-custom {
+    @apply overflow-y-auto; // Ensure scrollable container
+  
+    /* Custom scrollbar for WebKit browsers */
+    &::-webkit-scrollbar {
+      width: 6px; // Scrollbar width
+    }
+  
+    &::-webkit-scrollbar-thumb {
+      background-color: #00ABB3; // Thumb color
+      border-radius: 4px; // Rounded thumb
+    }
+  
+    &::-webkit-scrollbar-thumb:hover {
+      background-color: #00ABB3; // Hover color
+      
+    }
+  
+    &::-webkit-scrollbar-track {
+      background: transparent; // Transparent track
+    }
+  
+    /* Firefox support */
+    scrollbar-width: thin; // Thin scrollbar for Firefox
+    scrollbar-color: #00ABB3 transparent; // Thumb and track colors
+  }
+  

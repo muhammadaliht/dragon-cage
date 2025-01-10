@@ -1,3 +1,12 @@
+
+sass src/sass:src/ --watch
+
+npx tailwindcss -i ./src/main.css -o ./src/index.css --watch
+
+npm run start
+
+
+
 # Getting Started with Create React App and Redux
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
