@@ -33,7 +33,7 @@ const Sidebar = () => {
         }`}>
 
 
-      <div className={`h-screen w-[260px] bg-contain bg-no-repeat pt-7 pb-6 px-4`} 
+      <div className={`h-screen w-[260px] bg-cover bg-no-repeat pt-7 pb-6 px-4`} 
       style={{ backgroundImage: `url(${bgImage})` }}>
 
       <div className='flex flex-col items-center gap-1'>
