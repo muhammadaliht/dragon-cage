@@ -1279,10 +1279,6 @@ video {
   --tw-gradient-to: #6B3C50 var(--tw-gradient-to-position);
 }
 
-.bg-contain {
-  background-size: contain;
-}
-
 .bg-cover {
   background-size: cover;
 }
