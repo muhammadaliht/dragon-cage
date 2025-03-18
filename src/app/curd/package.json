@@ -1,9 +1,0 @@
-{
-  "dependencies": {
-    "ejs": "^3.1.10",
-    "express": "^4.21.1",
-    "formidable": "^3.5.1",
-    "fs": "^0.0.1-security",
-    "mongodb": "^6.9.0"
-  }
-}

@@ -12,7 +12,7 @@ const Navbar = ({ title, btn1, btn2, btn1Icon, btn2Icon, btn1Path, btn2Path }) =
             console.error("Audio playback", error);
         });
     };
-
+ 
    
 
     return (
@@ -24,6 +24,7 @@ const Navbar = ({ title, btn1, btn2, btn1Icon, btn2Icon, btn1Path, btn2Path }) =
                         {title}
                     </Link>
                 </div>
+
 
                 <div className='flex items-center justify-end gap-3 text-white'>
                     <Link

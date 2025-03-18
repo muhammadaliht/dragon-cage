@@ -4,8 +4,7 @@ import { Provider } from 'react-redux';
 import { store } from './app/store';
 import App from './App';
 import './index.css';
-import { createBrowserRouter } from 'react-router-dom';
-import { RouterProvider } from 'react-router-dom';
+import { createHashRouter, RouterProvider } from 'react-router-dom'; 
 import NewPrimal from './components/primalScreens/NewPrimal';
 import CreatePrimal from './components/primalScreens/CreatePrimal';
 import SetupPrimal from './components/primalScreens/SetupPrimal';
@@ -16,7 +15,8 @@ import Snippets from './components/dashboard/Snippets';
 import EditRoad from './components/dashboard/EditRoad';
 import Handles from './components/dashboard/Handles';
 
-const router = createBrowserRouter([
+
+const router = createHashRouter([
   {
     path: "/",
     element: <App />,
@@ -25,13 +25,13 @@ const router = createBrowserRouter([
       { path: "new-primal", element: <NewPrimal /> },
       { path: "create-primal", element: <CreatePrimal /> },
       { path: "setup-primal", element: <SetupPrimal /> },
-      { path: "dashborad", element: <Dashboard /> },
-      { path: "account", element: <Account/> },
-      { path: "snippets", element: <Snippets/> },
-      { path: "edit-road", element: <EditRoad/> },
-      { path: "handles", element: <Handles/> },
-    ]
-  }
+      { path: "dashboard", element: <Dashboard /> }, // Fixed typo: "dashborad" -> "dashboard"
+      { path: "account", element: <Account /> },
+      { path: "snippets", element: <Snippets /> },
+      { path: "edit-road", element: <EditRoad /> },
+      { path: "handles", element: <Handles /> },
+    ],
+  },
 ]);
 
 const container = document.getElementById('root');
