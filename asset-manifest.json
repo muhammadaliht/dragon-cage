@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/muhammadaliht/dragon-cage.git/static/css/main.c93d2aba.css",
-    "main.js": "/muhammadaliht/dragon-cage.git/static/js/main.a0344324.js",
-    "static/media/king.png": "/muhammadaliht/dragon-cage.git/static/media/king.26c06ccceb791529f074.png",
-    "static/media/beek-doo.png": "/muhammadaliht/dragon-cage.git/static/media/beek-doo.65cfea52b9eff89f03fd.png",
-    "static/media/angel.png": "/muhammadaliht/dragon-cage.git/static/media/angel.848f04c3c96f0031cfa6.png",
-    "static/media/bruce.png": "/muhammadaliht/dragon-cage.git/static/media/bruce.627be14a02083df214fd.png",
-    "static/media/InstagramLogo.webp": "/muhammadaliht/dragon-cage.git/static/media/InstagramLogo.017378065675023278d3.webp",
-    "static/media/bg.jpeg": "/muhammadaliht/dragon-cage.git/static/media/bg.81f9ba1cbd41254d2059.jpeg",
-    "static/media/sidebarImage.jpg": "/muhammadaliht/dragon-cage.git/static/media/sidebarImage.86e1abb57a6426c7d646.jpg",
-    "static/media/ancient-ogre.png": "/muhammadaliht/dragon-cage.git/static/media/ancient-ogre.66bc344e92d6de421d21.png",
-    "static/media/Alex.webp": "/muhammadaliht/dragon-cage.git/static/media/Alex.ef7e569252859f045f45.webp",
-    "static/media/facebooklogo.png": "/muhammadaliht/dragon-cage.git/static/media/facebooklogo.9923555665a270a0cfb7.png",
-    "static/media/twitterLogo.png": "/muhammadaliht/dragon-cage.git/static/media/twitterLogo.242e6fc38b282bde07d1.png",
-    "static/media/logo.png": "/muhammadaliht/dragon-cage.git/static/media/logo.a7e3a325fa43d818b06c.png",
-    "static/media/buttonSound.mp3": "/muhammadaliht/dragon-cage.git/static/media/buttonSound.a668f3ca00ab985e8f64.mp3",
-    "static/media/googleLogo.webp": "/muhammadaliht/dragon-cage.git/static/media/googleLogo.c920552d98e3ca0c9df5.webp",
-    "static/media/snapchatLogo.svg": "/muhammadaliht/dragon-cage.git/static/media/snapchatLogo.22caaf1edc80d014ccbbb89177f5aae1.svg",
-    "index.html": "/muhammadaliht/dragon-cage.git/index.html",
-    "main.c93d2aba.css.map": "/muhammadaliht/dragon-cage.git/static/css/main.c93d2aba.css.map",
-    "main.a0344324.js.map": "/muhammadaliht/dragon-cage.git/static/js/main.a0344324.js.map"
+    "main.css": "/dragon-cage/static/css/main.c93d2aba.css",
+    "main.js": "/dragon-cage/static/js/main.22ade567.js",
+    "static/media/king.png": "/dragon-cage/static/media/king.26c06ccceb791529f074.png",
+    "static/media/beek-doo.png": "/dragon-cage/static/media/beek-doo.65cfea52b9eff89f03fd.png",
+    "static/media/angel.png": "/dragon-cage/static/media/angel.848f04c3c96f0031cfa6.png",
+    "static/media/bruce.png": "/dragon-cage/static/media/bruce.627be14a02083df214fd.png",
+    "static/media/InstagramLogo.webp": "/dragon-cage/static/media/InstagramLogo.017378065675023278d3.webp",
+    "static/media/bg.jpeg": "/dragon-cage/static/media/bg.81f9ba1cbd41254d2059.jpeg",
+    "static/media/sidebarImage.jpg": "/dragon-cage/static/media/sidebarImage.86e1abb57a6426c7d646.jpg",
+    "static/media/ancient-ogre.png": "/dragon-cage/static/media/ancient-ogre.66bc344e92d6de421d21.png",
+    "static/media/Alex.webp": "/dragon-cage/static/media/Alex.ef7e569252859f045f45.webp",
+    "static/media/facebooklogo.png": "/dragon-cage/static/media/facebooklogo.9923555665a270a0cfb7.png",
+    "static/media/twitterLogo.png": "/dragon-cage/static/media/twitterLogo.242e6fc38b282bde07d1.png",
+    "static/media/logo.png": "/dragon-cage/static/media/logo.a7e3a325fa43d818b06c.png",
+    "static/media/buttonSound.mp3": "/dragon-cage/static/media/buttonSound.a668f3ca00ab985e8f64.mp3",
+    "static/media/googleLogo.webp": "/dragon-cage/static/media/googleLogo.c920552d98e3ca0c9df5.webp",
+    "static/media/snapchatLogo.svg": "/dragon-cage/static/media/snapchatLogo.22caaf1edc80d014ccbbb89177f5aae1.svg",
+    "index.html": "/dragon-cage/index.html",
+    "main.c93d2aba.css.map": "/dragon-cage/static/css/main.c93d2aba.css.map",
+    "main.22ade567.js.map": "/dragon-cage/static/js/main.22ade567.js.map"
   },
   "entrypoints": [
     "static/css/main.c93d2aba.css",
-    "static/js/main.a0344324.js"
+    "static/js/main.22ade567.js"
   ]
 }
