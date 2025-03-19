@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dragon-cage/static/css/main.c93d2aba.css",
-    "main.js": "/dragon-cage/static/js/main.22ade567.js",
+    "main.css": "/dragon-cage/static/css/main.70dd1920.css",
+    "main.js": "/dragon-cage/static/js/main.71611337.js",
     "static/media/king.png": "/dragon-cage/static/media/king.26c06ccceb791529f074.png",
     "static/media/beek-doo.png": "/dragon-cage/static/media/beek-doo.65cfea52b9eff89f03fd.png",
     "static/media/angel.png": "/dragon-cage/static/media/angel.848f04c3c96f0031cfa6.png",
@@ -18,11 +18,11 @@
     "static/media/googleLogo.webp": "/dragon-cage/static/media/googleLogo.c920552d98e3ca0c9df5.webp",
     "static/media/snapchatLogo.svg": "/dragon-cage/static/media/snapchatLogo.22caaf1edc80d014ccbbb89177f5aae1.svg",
     "index.html": "/dragon-cage/index.html",
-    "main.c93d2aba.css.map": "/dragon-cage/static/css/main.c93d2aba.css.map",
-    "main.22ade567.js.map": "/dragon-cage/static/js/main.22ade567.js.map"
+    "main.70dd1920.css.map": "/dragon-cage/static/css/main.70dd1920.css.map",
+    "main.71611337.js.map": "/dragon-cage/static/js/main.71611337.js.map"
   },
   "entrypoints": [
-    "static/css/main.c93d2aba.css",
-    "static/js/main.22ade567.js"
+    "static/css/main.70dd1920.css",
+    "static/js/main.71611337.js"
   ]
 }
