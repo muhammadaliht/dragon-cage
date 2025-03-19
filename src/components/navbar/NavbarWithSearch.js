@@ -13,22 +13,22 @@ const NavbarWithSearch = ({title,addValueAccount,addValueSnippet,addValueHandle}
     const dispatch = useDispatch();
     return (
         <div>
-            <div className="h-[50px] bg-[#4C4959] flex justify-between px-4 items-center">
-  <div className="flex items-center gap-4">
-    <LuMenu className="text-white text-[24px] cursor-pointer" onClick={()=>{
+            <div className="h-[50px] bg-[#4C4959] flex justify-between px-4 items-center sm:px-2 sm:h-[45px]">
+  <div className="flex items-center gap-4 sm:gap-2">
+    <LuMenu className="text-white text-[24px] cursor-pointer sm:text-[20px]" onClick={()=>{
       dispatch(setSidebarValue(true))
     }} />
-    <p className="text-white tracking-wide text-xl capitalize">{title}</p>
+    <p className="text-white tracking-wide text-xl capitalize sm:text-lg">{title}</p>
   </div>
 
-  <div className={'flex items-center '}>
+  <div className={'flex items-center sm:gap-2'}>
 
-  <div className={'flex items-center gap-1 border px-2 border-teal-300 '}>
-  <CiSearch className={'text-zinc-300'} />
-  <input className={'bg-transparent focus:outline-none text-white'} type='text' placeholder='Search'></input>
+  <div className={'flex items-center gap-1 border px-2 border-teal-300 sm:px-1'}>
+  <CiSearch className={'text-zinc-300 sm:text-sm'} />
+  <input className={'bg-transparent focus:outline-none text-white text-sm sm:text-xs'} type='text' placeholder='Search'></input>
   </div>
 
-  <IoAddOutline className={'text-[23px] text-white ml-3 cursor-pointer'} 
+  <IoAddOutline className={'text-[23px] text-white ml-3 cursor-pointer sm:text-[20px] sm:ml-2'} 
     onClick={()=>{
             dispatch(setNewAccount({addValueAccount}));
             dispatch(setAddSnippet({addValueSnippet}));

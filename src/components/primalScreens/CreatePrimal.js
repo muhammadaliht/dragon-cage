@@ -15,7 +15,6 @@ import { GoCommandPalette } from "react-icons/go";
 
 
 
-
 const CreatePrimal = () => {
 
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -43,7 +42,7 @@ const CreatePrimal = () => {
         style={{ backgroundImage: `url(${backgroundImage})` }}>
         <div className={'relative inset-0 overflow-hidden h-full w-full bg-[#101010c7]'}>
                 
-        <Navbar title={'craete primal'} btn1Icon={GiCancel} btn1={'cancel'}
+        <Navbar title={'create primal'} btn1Icon={GiCancel} btn1={'cancel'}
                      btn2Icon={GoCommandPalette} btn2={'execute'}
                      btn1Path={'/'}
                      btn2Path={'/setup-primal'}
@@ -54,9 +53,9 @@ const CreatePrimal = () => {
 <lable className={'capitalize  text-white tracking-wide'}>Primal Nick Name</lable>
 <input placeholder={'Dragon Cage Primal'} className={'focus:outline-none text-white w-full mt-1 pl-2 h-[37px] bg-transparent border-[1.5px] border-[#238B98]'} ></input>
  
- <div className={'flex justify-between text-white mt-3 mb-5 font-medium tracking-wider'}>
+ <div className={'flex flex-col sm:flex-row justify-between text-white mt-3 mb-5 font-medium tracking-wider'}>
  <p className={'uppercase'}>empower your defence</p>
- <p>(3 Minimum)</p>
+ <p className={'text-sm sm:text-base'}>(3 Minimum)</p>
  </div>
 
 <lable className={'capitalize text-white tracking-wide'}>Mother First Name</lable>
@@ -106,10 +105,10 @@ const CreatePrimal = () => {
      className="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center"
      onClick={handleOutsideClick}
    >
-     <div className="bg-[#222832] p-6 rounded shadow-lg grid gap-2 grid-cols-1 sm:grid-cols-4 h-[500px] overflow-y-auto">
+     <div className="bg-[#222832] p-6 rounded shadow-lg grid gap-2 grid-cols-2 sm:grid-cols-4 h-[500px] overflow-y-auto">
      
 
-     <button className='flex justify-center items-center hover:scale-105 border-2 border-black flex-col px-8 h-[200px] bg-gradient-to-b from-[#224664] to-[#070E15]'>
+     <button className='flex justify-center items-center hover:scale-105 border-2 border-black flex-col px-4 sm:px-8 h-[150px] sm:h-[200px] bg-gradient-to-b from-[#224664] to-[#070E15]'>
      <div className='h-[120px] w-[150px]'>
      <img src={char1} alt={'loading...'} className='object-contain h-full w-full' ></img>
      </div>
@@ -117,7 +116,7 @@ const CreatePrimal = () => {
      <p className={'capitalize text-white tracking-wider font-mono'}>Alex</p>
      </button>
 
-     <button className='flex justify-center hover:scale-105  border-2 border-black items-center flex-col px-8 h-[200px] bg-gradient-to-b from-[#224664] to-[#070E15]'>
+     <button className='flex justify-center hover:scale-105  border-2 border-black items-center flex-col px-4 sm:px-8 h-[150px] sm:h-[200px] bg-gradient-to-b from-[#224664] to-[#070E15]'>
      <div className='h-[120px] w-[150px]'>
      <img src={char2} alt={'loading...'} className='object-contain h-full w-full' ></img>
      </div>
@@ -126,7 +125,7 @@ const CreatePrimal = () => {
      </button>
 
 
-     <button className='flex justify-center hover:scale-105 border-2 border-black items-center flex-col px-8 h-[200px] bg-gradient-to-b from-[#224664] to-[#070E15]'>
+     <button className='flex justify-center hover:scale-105 border-2 border-black items-center flex-col px-4 sm:px-8 h-[150px] sm:h-[200px] bg-gradient-to-b from-[#224664] to-[#070E15]'>
      <div className='h-[120px] w-[150px]'>
      <img src={char3} alt={'loading...'} className='object-contain h-full w-full' ></img>
      </div>
@@ -135,7 +134,7 @@ const CreatePrimal = () => {
      </button>
 
 
-     <button className='flex justify-center hover:scale-105 border-2 border-black items-center flex-col px-8 h-[200px] bg-gradient-to-b from-[#224664] to-[#070E15]'>
+     <button className='flex justify-center hover:scale-105 border-2 border-black items-center flex-col px-4 sm:px-8 h-[150px] sm:h-[200px] bg-gradient-to-b from-[#224664] to-[#070E15]'>
      <div className='h-[120px] w-[150px]'>
      <img src={char4} alt={'loading...'} className='object-contain h-full w-full' ></img>
      </div>
@@ -144,7 +143,7 @@ const CreatePrimal = () => {
      </button>
 
 
-     <button className='flex justify-center hover:scale-105 border-2 border-black items-center flex-col px-8 h-[200px] bg-gradient-to-b from-[#224664] to-[#070E15]'>
+     <button className='flex justify-center hover:scale-105 border-2 border-black items-center flex-col px-4 sm:px-8 h-[150px] sm:h-[200px] bg-gradient-to-b from-[#224664] to-[#070E15]'>
      <div className='h-[120px] w-[150px]'>
      <img src={char5} alt={'loading...'} className='object-contain h-full w-full' ></img>
      </div>
@@ -154,7 +153,7 @@ const CreatePrimal = () => {
 
 
 
-     <button className='flex justify-center hover:scale-105 border-2 border-black items-center flex-col px-8 h-[200px] bg-gradient-to-b from-[#224664] to-[#070E15]'>
+     <button className='flex justify-center hover:scale-105 border-2 border-black items-center flex-col px-4 sm:px-8 h-[150px] sm:h-[200px] bg-gradient-to-b from-[#224664] to-[#070E15]'>
      <div className='h-[120px] w-[150px]'>
      <img src={char6} alt={'loading...'} className='object-contain h-full w-full' ></img>
      </div>
@@ -181,9 +180,9 @@ const CreatePrimal = () => {
 <lable className={'capitalize text-white tracking-wide'}>your university roll number</lable>
 <input placeholder={'BX1234567'} className={'focus:outline-none w-full text-white mt-1 pl-2 h-[37px] bg-transparent border-[1.5px] border-[#238B98]'} ></input>
  
- <div className={'flex justify-between mt-2 mb-4'}>
- <p className={'text-white capitalize tracking-wider'}>have you ever lived outside of your current country of residence</p>
- <div className={'flex gap-2'}>
+ <div className={'flex flex-col sm:flex-row justify-between mt-2 mb-4'}>
+ <p className={'text-white capitalize tracking-wider text-sm sm:text-base'}>have you ever lived outside of your current country of residence</p>
+ <div className={'flex gap-2 mt-2 sm:mt-0'}>
    <button className={' hover:bg-[#238B98] hover:border-white uppercase border-2 border-[#238B98] flex items-center gap-1 text-white font-sm px-2'}> 
    <MdOutlineCancel />
    no</button>

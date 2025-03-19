@@ -12,7 +12,7 @@ import { MdOutlineKeyboardArrowLeft } from "react-icons/md";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { resetSetup, selectCollectInfo, selectComplete, selectEncryptionPre, selectFailure, selectFirebaseConfig, selectGeneratingPre, selectPassword, selectPreservingCred, setCollectInfo, setComplete, setEncryptionPre, setFailure, setFirebaseConfig, setGeneratingPre, setPassword, setPreservingCred } from '../../features/counter/setupSlice';
 import { useDispatch, useSelector } from 'react-redux';
-
+ 
 const SetupPrimal = () => {
    const welcomeTitle = "Welcome To The Developer Edition Setup Wizard";
    const welcomeText = "Thank You For Choosing The Developer Edition Of Our Software! This Version Is Tailored To Meet The Needs Of Developers Like You, Offering Enhanced Speed, Reliability, And Performance. With Features Designed To Streamline Your Development Workflow And A Track Record Of Being Beloved By Developers For Decades, We're Confident That You'll Find The Developer Edition To Be A Valuable Tool In Your Arsenal. Let's Get Started With The Setup Process And Unlock The Full Potential Of Your Development Environment.";
@@ -399,8 +399,8 @@ const SetupPrimal = () => {
                   <SetupNavbar />
                </div>
 
-               <div className="flex h-4/6 w-full">
-                  <div className="w-1/5 h-full bg-[#54426bdb] pl-5 flex flex-col gap-4 justify-center">
+               <div className="flex flex-col md:flex-row h-4/6 w-full">
+                  <div className="w-full md:w-1/5 h-full bg-[#54426bdb] pl-5 flex flex-col gap-4 justify-center">
                   
                   <div className={'flex items-center gap-3'}>
                     <input type='radio'  className={'w-[20px] h-[20px] '} checked={complete || failure || password || collectInfo || generatingPre || encryptionPre || preservingCred || firebaseConfig} readOnly ></input>
@@ -436,7 +436,7 @@ const SetupPrimal = () => {
 
                   </div>
 
-                  <div className="w-4/5 h-full bg-[#4a385fb5]  py-5 px-4">{renderContent()}</div>
+                  <div className="w-full md:w-4/5 h-full bg-[#4a385fb5] py-5 px-4">{renderContent()}</div>
                </div>
 
                <div className="w-full h-1/6 bg-[#4A385F]">

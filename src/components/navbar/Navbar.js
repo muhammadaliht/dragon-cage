@@ -16,7 +16,7 @@ const Navbar = ({ title, btn1, btn2, btn1Icon, btn2Icon, btn1Path, btn2Path }) =
    
 
     return (
-        <div>
+        <div className="bg-[#1a1a1a]">
             <div className={'grid grid-cols-2 h-[60px] sm:h-[70px] px-2 sm:px-3'}>
                 <div className='flex items-center gap-1'>
                     <img src={logo} className='h-[30px] sm:h-[38px]' alt="Logo" />

@@ -5,19 +5,19 @@ import { useDispatch } from 'react-redux';
 import Sidebar from './Sidebar';
 import { MdOutlineTextSnippet } from 'react-icons/md';
 import fb from '../../drawable/facebooklogo.png'
-
+ 
 const EditRoad = () => {
     const dispatch = useDispatch();
     return (
         <div>
    <div className='w-screen h-screen flex flex-col'>
 
-   <div className="h-[50px] navbar bg-[#4C4959] flex justify-between px-4 items-center">
-  <div className="flex items-center gap-4">
-    <LuMenu className="text-white text-[24px] cursor-pointer" onClick={()=>{
+   <div className="h-[50px] navbar bg-[#4C4959] flex justify-between px-4 items-center sm:px-2">
+  <div className="flex items-center gap-4 sm:gap-2">
+    <LuMenu className="text-white text-[24px] sm:text-[20px] cursor-pointer" onClick={()=>{
       dispatch(setSidebarValue(true))
     }} />
-    <p className="text-white tracking-wide text-xl capitalize">Edit Road</p>
+    <p className="text-white tracking-wide text-xl sm:text-lg capitalize">Edit Road</p>
   </div>
    </div>
 

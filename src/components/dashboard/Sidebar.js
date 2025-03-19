@@ -13,7 +13,6 @@ import { TbLogout2 } from "react-icons/tb";
 import { Link } from 'react-router-dom';
 import logo from '../../drawable/logo.png';
 
-
 import { useDispatch, useSelector } from 'react-redux';
 import { selectSidebarValue, setSidebarValue } from '../../features/counter/sidebarSlice';
 import { setNewAccount, setNewHandle } from '../../features/counter/accountSlice';
@@ -44,69 +43,69 @@ const Sidebar = () => {
       <div className={'flex flex-col justify-center mt-6 sm:mt-8 gap-2 sm:gap-3'}>
       
       <Link to={'/account'}>
-      <div className='flex items-end gap-5' onClick={()=>{
+      <div className='flex items-end gap-5 sm:gap-3' onClick={()=>{
          dispatch(setNewHandle(false))
          dispatch(setNewAccount(false))
       }}>
-      <MdOutlineAccountTree className={'text-white text-xl'} />
-      <p className={"capitalize text-white text-[18px]"}>accounts</p>
+      <MdOutlineAccountTree className={'text-white text-xl sm:text-lg'} />
+      <p className={"capitalize text-white text-[18px] sm:text-[16px]"}>accounts</p>
       </div>
       </Link>
 
       <Link to={'/snippets'}>
-      <div className='flex items-end gap-5' onClick={()=>{
+      <div className='flex items-end gap-5 sm:gap-3' onClick={()=>{
         dispatch(setAddSnippet(false))
       }}>
-      <AiTwotoneSnippets  className={'text-white text-xl'} />
-      <p className={"capitalize text-white text-[18px]"}>Snippets</p>
+      <AiTwotoneSnippets  className={'text-white text-xl sm:text-lg'} />
+      <p className={"capitalize text-white text-[18px] sm:text-[16px]"}>Snippets</p>
       </div>
       </Link>
 
       <Link to={'/edit-road'}>
-      <div className='flex items-end gap-5'>
-      <MdEditRoad className={'text-white text-xl'} />
-      <p className={"capitalize text-white text-[18px]"}>edit road</p>
+      <div className='flex items-end gap-5 sm:gap-3'>
+      <MdEditRoad className={'text-white text-xl sm:text-lg'} />
+      <p className={"capitalize text-white text-[18px] sm:text-[16px]"}>edit road</p>
       </div>
       </Link>
 
       <Link to={'/handles'}>
-      <div className='flex items-end gap-5' onClick={()=>{
+      <div className='flex items-end gap-5 sm:gap-3' onClick={()=>{
         dispatch(setCreateHandle(false))
         dispatch(setChooseTemplate(false))
       }}>
-      <FaGlobeAmericas className={'text-white text-xl'} />
-      <p className={"capitalize text-white text-[18px]"}>handles</p>
+      <FaGlobeAmericas className={'text-white text-xl sm:text-lg'} />
+      <p className={"capitalize text-white text-[18px] sm:text-[16px]"}>handles</p>
       </div>
       </Link>
 
-      <div className='flex items-end gap-5'>
-      <GrProjects className={'text-white text-xl'} />
-      <p className={"capitalize text-white text-[18px]"}>projects</p>
+      <div className='flex items-end gap-5 sm:gap-3'>
+      <GrProjects className={'text-white text-xl sm:text-lg'} />
+      <p className={"capitalize text-white text-[18px] sm:text-[16px]"}>projects</p>
       </div>
 
-      <div className='flex items-end gap-5'>
-      <MdDeleteSweep className={'text-white text-xl'} />
-      <p className={"capitalize text-white text-[18px]"}>trash</p>
+      <div className='flex items-end gap-5 sm:gap-3'>
+      <MdDeleteSweep className={'text-white text-xl sm:text-lg'} />
+      <p className={"capitalize text-white text-[18px] sm:text-[16px]"}>trash</p>
       </div>
 
-      <div className='flex items-end gap-5'>
-      <MdOutlineSettingsBackupRestore  className={'text-white text-xl'} />
-      <p className={"capitalize text-white text-[18px]"}>backup</p>
+      <div className='flex items-end gap-5 sm:gap-3'>
+      <MdOutlineSettingsBackupRestore  className={'text-white text-xl sm:text-lg'} />
+      <p className={"capitalize text-white text-[18px] sm:text-[16px]"}>backup</p>
       </div>
 
-      <div className='flex items-end gap-5'>
-      <FaMobileAlt  className={'text-white text-xl'} />
-      <p className={"capitalize text-white text-[18px]"}>link device</p>
+      <div className='flex items-end gap-5 sm:gap-3'>
+      <FaMobileAlt  className={'text-white text-xl sm:text-lg'} />
+      <p className={"capitalize text-white text-[18px] sm:text-[16px]"}>link device</p>
       </div>
 
-      <div className='flex items-end gap-5'>
-      <IoMdSettings className={'text-white text-xl'} />
-      <p className={"capitalize text-white text-[18px]"}>setting</p>
+      <div className='flex items-end gap-5 sm:gap-3'>
+      <IoMdSettings className={'text-white text-xl sm:text-lg'} />
+      <p className={"capitalize text-white text-[18px] sm:text-[16px]"}>setting</p>
       </div>
 
-      <div className='flex items-end gap-5'>
-      <TbLogout2 className={'text-white text-xl'} />
-      <p className={"capitalize text-white text-[18px]"}>logout</p>
+      <div className='flex items-end gap-5 sm:gap-3'>
+      <TbLogout2 className={'text-white text-xl sm:text-lg'} />
+      <p className={"capitalize text-white text-[18px] sm:text-[16px]"}>logout</p>
       </div>
       
 

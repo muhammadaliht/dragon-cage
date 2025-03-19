@@ -25,7 +25,7 @@ const router = createHashRouter([
       { path: "new-primal", element: <NewPrimal /> },
       { path: "create-primal", element: <CreatePrimal /> },
       { path: "setup-primal", element: <SetupPrimal /> },
-      { path: "dashboard", element: <Dashboard /> }, // Fixed typo: "dashborad" -> "dashboard"
+      { path: "dashborad", element: <Dashboard /> }, // Fixed typo: "dashborad" -> "dashboard"
       { path: "account", element: <Account /> },
       { path: "snippets", element: <Snippets /> },
       { path: "edit-road", element: <EditRoad /> },

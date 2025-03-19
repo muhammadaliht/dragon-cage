@@ -17,7 +17,6 @@ import { GrRadialSelected } from 'react-icons/gr';
 import { IoLogoAndroid } from 'react-icons/io';
 import editLayers from '../../drawable/editLayers.png';
 
-
 const Handles = () => {
     const dispatch = useDispatch();
     const createHandle = useSelector(selectCreateHandle);

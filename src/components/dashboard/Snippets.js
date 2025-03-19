@@ -9,7 +9,7 @@ import { TiTick } from 'react-icons/ti';
 import { IoMdAdd } from 'react-icons/io';
 import { useDispatch, useSelector } from 'react-redux';
 import { selectAddSnippet, setAddSnippet } from '../../features/counter/addSnippetSlice';
-
+ 
 const Snippets = () => {
     const dispatch = useDispatch();
     const addSnippet = useSelector(selectAddSnippet);
@@ -44,10 +44,10 @@ const Snippets = () => {
           onClick={()=>{
             dispatch(setAddSnippet(false))
           }} />
-            <p className={'text-white text-xl'}>Create Snippet</p>
+            <p className={'text-white text-xl sm:text-lg'}>Create Snippet</p>
           </div>
 
-          <div className={'flex items-end gap-3 text-white text-[18px]'}>
+          <div className={'flex items-end gap-3 text-white text-[18px] sm:text-[16px]'}>
           <BiShow />
           <IoMdAdd />
           <IoLayers />
@@ -62,10 +62,10 @@ const Snippets = () => {
 
          <div className='input-1'>
           <div className='w-full flex justify-between'>
-            <p className='text-white'>Title</p>
-            <span className='flex gap-3 text-white text-[12px]'><FaLock /> <FaLock /></span>
+            <p className='text-white text-sm sm:text-xs'>Title</p>
+            <span className='flex gap-3 text-white text-[12px] sm:text-[10px]'><FaLock /> <FaLock /></span>
           </div>
-          <input className={'bg-[#383E46] mt-1 w-full border-b-2 border-teal-500 focus:outline-none text-white pl-2 '} type='text' placeholder='title'></input>
+          <input className={'bg-[#383E46] mt-1 w-full border-b-2 border-teal-500 focus:outline-none text-white pl-2 text-sm sm:text-xs'} type='text' placeholder='title'></input>
          </div>
 
          <div className='input-1'>

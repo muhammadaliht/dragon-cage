@@ -54,19 +54,18 @@ const SetupFooter = () => {
 
 
     return (
-        <div className={`flex w-full
+        <div className={`flex flex-col md:flex-row w-full
          ${preservingCred || firebaseConfig || password || failure || complete ? 'bg-[#291d33]' : 'bg-[#4a385fb5]'} h-full`}>
 
-            <div className="flex-1 h-full flex flex-col justify-center pl-2">
+            <div className="flex-1 h-full flex flex-col justify-center pl-2 md:pl-4">
                {renderContent()}
-              
             </div>
-            <div className="flex flex-1 flex-row items-center justify-end pr-4 h-full gap-1">
+            <div className="flex flex-1 flex-row items-center justify-center md:justify-end pr-2 md:pr-4 h-full gap-1">
                 {[...Array(5)].map((_, index) => (
                     <img
                         key={index}
                         src={logo}
-                        className={`h-[28px] w-auto image ${currentImageIndex === index ? 'pop' : ''}`}
+                        className={`h-[20px] md:h-[28px] w-auto image ${currentImageIndex === index ? 'pop' : ''}`}
                         alt="logo"
                     />
                 ))}
