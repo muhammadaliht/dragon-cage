@@ -31,10 +31,10 @@ const Handles = () => {
   <div className={'w-screen h-screen flex flex-col relative'}>
       <NavbarWithSearch title='handles' addValueHandle='true' addValueAccount='false' addValueSnippet='false' />
 
-      <div className={'flex-1 flex flex-col justify-center items-center bg-[#222832]'}>
-      <GiWorld className={'text-3xl text-white'}/>
-        <p className='text-white capitalize font-normal text-md'>no handles available yet!</p>
-        <p className={'uppercase text-teal-400 tracking-wider'}>Create new handle now</p>
+      <div className={'flex-1 flex flex-col justify-center items-center bg-[#222832] p-4 sm:p-6'}>
+      <GiWorld className={'text-2xl sm:text-3xl text-white'}/>
+        <p className='text-white capitalize font-normal text-sm sm:text-md'>no handles available yet!</p>
+        <p className={'uppercase text-teal-400 tracking-wider text-xs sm:text-sm'}>Create new handle now</p>
 
       </div>
   </div> 

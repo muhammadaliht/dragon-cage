@@ -18,16 +18,16 @@ const Snippets = () => {
       <div className={'w-screen h-screen flex flex-col relative'}>
          <NavbarWithSearch title='Snippets' addValueAccount='false' addValueSnippet='true'/>
 
-         <div className='flex-1 bg-[#222832] w-full p-2 flex flex-col gap-2'>
+         <div className='flex-1 bg-[#222832] w-full p-2 sm:p-4 flex flex-col gap-2'>
             
-            <div className='flex items-center gap-1 w-full rounded-sm h-[50px] bg-[#383E46] p-2'>
-            <MdOutlineTextSnippet className='text-white' />
-              <p className='text-white capitalize '>Intermediate Result details</p>
+            <div className='flex items-center gap-1 w-full rounded-sm h-[40px] sm:h-[50px] bg-[#383E46] p-2'>
+            <MdOutlineTextSnippet className='text-white text-sm sm:text-base' />
+              <p className='text-white capitalize text-xs sm:text-sm'>Intermediate Result details</p>
             </div>
 
-            <div className='flex items-center gap-1 w-full rounded-sm h-[50px] bg-[#383E46] p-2'>
-            <MdOutlineTextSnippet className='text-white' />
-              <p className='text-white capitalize '>Todo:Task 1</p>
+            <div className='flex items-center gap-1 w-full rounded-sm h-[40px] sm:h-[50px] bg-[#383E46] p-2'>
+            <MdOutlineTextSnippet className='text-white text-sm sm:text-base' />
+              <p className='text-white capitalize text-xs sm:text-sm'>Todo:Task 1</p>
             </div>
 
          </div>

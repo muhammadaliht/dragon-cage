@@ -13,26 +13,26 @@ const SplashScreen = () => {
         <div className={"relative inset-0 h-screen w-screen"}>
           <div className={"grid grid-cols-1 h-screen "}>
 
-            <div className={"pl-8 pt-10  "}>
+            <div className={"pl-4 pt-6 sm:pl-8 sm:pt-10"}>
               <div
-                className={"w-[310px] bg-[#18162b9e] backdrop-blur-sm h-[80px]"}
+                className={"w-[250px] sm:w-[310px] bg-[#18162b9e] backdrop-blur-sm h-[60px] sm:h-[80px]"}
               >
                 <div className={"flex h-full w-full"}>
                   <div
                     className={"h-full w-1/3 flex justify-center items-center "}
                   >
-                    <img src={logo} className={"h-[50px]"} />
+                    <img src={logo} className={"h-[40px] sm:h-[50px]"} />
                   </div>
                   <div className={"h-full w-2/3 flex flex-col justify-center"}>
                     <p
                       className={
-                        "uppercase font-semibold text-white tracking-[3px]"
+                        "uppercase font-semibold text-white tracking-[2px] sm:tracking-[3px] text-sm sm:text-base"
                       }
-                      style={{ wordSpacing: "2px" }}
+                      style={{ wordSpacing: "1px" }}
                     >
                       dragon cage
                     </p>
-                    <p className={"capitalize text-white text-sm"}>
+                    <p className={"capitalize text-white text-xs sm:text-sm"}>
                       developer edition
                     </p>
                   </div>
@@ -40,18 +40,18 @@ const SplashScreen = () => {
               </div>
             </div>
 
-            <div className={" p-4 empty-section"}></div>
+            <div className={"p-2 sm:p-4 empty-section"}></div>
 
-            <div className={"flex flex-col justify-end items-center pb-4 bg-gradient-to-b from-[#c9c9c900] to-[#000000fc] "}>
-            <p className={'text-white capitalize text-xl tracking-widest'}>unleash the power of sacred vault</p>
-            <p className={'text-white capitalize text-2xl font-mono font-medium tracking-widest'}>A Sentinel Revered by Dragon Lords</p>
+            <div className={"flex flex-col justify-end items-center pb-2 sm:pb-4 bg-gradient-to-b from-[#c9c9c900] to-[#000000fc] "}>
+            <p className={'text-white capitalize text-sm sm:text-xl tracking-widest'}>unleash the power of sacred vault</p>
+            <p className={'text-white capitalize text-lg sm:text-2xl font-mono font-medium tracking-widest'}>A Sentinel Revered by Dragon Lords</p>
             
-            <div className="w-[900px] h-3 bg-[rgb(109,59,166)] my-2 rounded-full overflow-hidden">
+            <div className="w-[90%] sm:w-[900px] h-2 sm:h-3 bg-[rgb(109,59,166)] my-2 rounded-full overflow-hidden">
              <div className="h-full bg-gradient-to-r from-[#EDA475] via-[#913D3B] to-[#6B3C50] rounded-full animate-progress"
             style={{ animationDuration: "3s" }}></div>
             </div>
 
-            <p className={'text-white text-md font-medium tracking-widest'}>Powered by @electrodragon inc</p>
+            <p className={'text-white text-xs sm:text-md font-medium tracking-widest'}>Powered by @electrodragon inc</p>
             </div>
           </div>
         </div>

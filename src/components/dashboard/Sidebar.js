@@ -33,15 +33,15 @@ const Sidebar = () => {
         }`}>
 
 
-      <div className={`h-screen w-[260px] bg-cover bg-no-repeat pt-7 pb-6 px-4`} 
+      <div className={`h-screen w-[200px] sm:w-[260px] bg-cover bg-no-repeat pt-5 sm:pt-7 pb-4 sm:pb-6 px-3 sm:px-4`} 
       style={{ backgroundImage: `url(${bgImage})` }}>
 
       <div className='flex flex-col items-center gap-1'>
-         <img src={logo} className={'h-[67px]'} alt='logo'></img>
-         <p className={"text-white tracking-widest uppercase text-md font-semibold"}>Dragon cage</p>
+         <img src={logo} className={'h-[50px] sm:h-[67px]'} alt='logo'></img>
+         <p className={"text-white tracking-widest uppercase text-sm sm:text-md font-semibold"}>Dragon cage</p>
       </div>
 
-      <div className={'flex flex-col justify-center mt-8 gap-3'}>
+      <div className={'flex flex-col justify-center mt-6 sm:mt-8 gap-2 sm:gap-3'}>
       
       <Link to={'/account'}>
       <div className='flex items-end gap-5' onClick={()=>{
